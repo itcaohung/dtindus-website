@@ -131,6 +131,10 @@ const I18N = {
 
     "values.title": "Tầm nhìn - Sứ mệnh",
     "values.sub": "Định hướng phát triển của Đức Tiến",
+    "values.coreLabel": "Giá trị cốt lõi",
+    "values.core1": "Tận tâm",
+    "values.core2": "Uy tín",
+    "values.core3": "Chất lượng",
     "values.v1.name": "Tầm nhìn",
     "values.v1.desc": "Trong 5 năm tới, trở thành công ty dịch vụ cung cấp thiết bị, thi công lắp đặt hệ thống năng lượng mặt trời đứng top đầu tại Việt Nam.",
     "values.v2.name": "Sứ mệnh",
@@ -266,6 +270,10 @@ const I18N = {
 
     "values.title": "Vision - Mission",
     "values.sub": "Development orientation of Duc Tien",
+    "values.coreLabel": "Core values",
+    "values.core1": "Devotion",
+    "values.core2": "Reputation",
+    "values.core3": "Quality",
     "values.v1.name": "Vision",
     "values.v1.desc": "Within the next 5 years, to become a top leading company in equipment supply and solar power system installation services in Vietnam.",
     "values.v2.name": "Mission",

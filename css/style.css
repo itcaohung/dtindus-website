@@ -456,14 +456,59 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 
 /* ============ VALUES ============ */
 .values { background: var(--beige); }
+.values-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+.values-strip-label {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--blue);
+}
+.values-strip-items { display: flex; gap: 12px; flex-wrap: wrap; }
+.value-chip {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 13.5px;
+  letter-spacing: .3px;
+  color: var(--red);
+  background: var(--white);
+  border: 1.5px solid rgba(189, 45, 59, 0.28);
+  border-radius: 999px;
+  padding: 9px 20px;
+  box-shadow: var(--shadow);
+  transition: all .2s;
+}
+.value-chip:hover { background: var(--red); color: var(--white); }
+.values-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
 .value-card {
+  position: relative;
   background: var(--white);
   border-radius: var(--radius);
-  padding: 30px 26px;
+  padding: 32px 28px;
   box-shadow: var(--shadow);
   transition: transform .25s, box-shadow .25s;
 }
 .value-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.value-card--feature { border-top: 4px solid var(--blue); overflow: hidden; }
+.value-card--red { border-top-color: var(--red); }
+.value-card--feature::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 90px; height: 90px;
+  border-radius: 0 0 0 100%;
+  background: linear-gradient(135deg, rgba(25, 64, 136, 0.07), transparent 70%);
+  pointer-events: none;
+}
+.value-card--red::after { background: linear-gradient(135deg, rgba(189, 45, 59, 0.07), transparent 70%); }
 .value-icon {
   display: inline-flex;
   align-items: center;
@@ -474,8 +519,11 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
   margin-bottom: 18px;
   color: var(--blue);
 }
+.value-card--red .value-icon { background: rgba(189, 45, 59, 0.1); color: var(--red); }
 .value-card h3 { font-size: 18px; margin-bottom: 10px; }
 .value-card p { font-size: 14.5px; color: var(--gray); }
+.value-card--feature h3 { font-size: 21px; }
+.value-card--feature p { font-size: 15px; }
 
 /* ============ MACHINES ============ */
 .machines { background: var(--light); }
@@ -696,6 +744,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
   .section { padding: 64px 0; }
   .banner { padding: 30px 26px; }
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+  .values-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
