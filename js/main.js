@@ -45,7 +45,7 @@ const I18N = {
     "nav.services": "Dịch vụ",
     "nav.contact": "Liên hệ",
 
-    "hero.eyebrow": "CÔNG TY TNHH CÔNG NGHIỆP ĐỨC TIẾN • DUC TIEN INDUSTRIAL TECHNICAL CO., LTD",
+    "hero.eyebrow": "CÔNG TY TNHH CÔNG NGHIỆP ĐỨC TIẾN • DUC TIEN INDUSTRIAL CO., LTD",
     "hero.title": "Giải pháp năng lượng mặt trời & thiết bị điện tin cậy",
     "hero.sub": "Dịch vụ thi công lắp đặt hệ thống điện năng lượng mặt trời - từ nhà dân dụng, nhà xưởng đến farm, xà lan - cùng sản xuất tủ bảng điện và vật tư cơ khí.",
     "hero.cta1": "Xem lĩnh vực hoạt động",
@@ -68,7 +68,7 @@ const I18N = {
     "stats.serviceLabel": "Dịch vụ hỗ trợ khách hàng",
 
     "about.title": "Giới thiệu công ty",
-    "about.p1": "Công ty TNHH Công nghiệp Đức Tiến (DUC TIEN INDUSTRIAL TECHNICAL CO., LTD) hoạt động trong lĩnh vực dịch vụ thi công lắp đặt hệ thống điện năng lượng mặt trời, với mong muốn phục vụ khách hàng tốt nhất.",
+    "about.p1": "Công ty TNHH Công nghiệp Đức Tiến (DUC TIEN INDUSTRIAL CO., LTD) hoạt động trong lĩnh vực dịch vụ thi công lắp đặt hệ thống điện năng lượng mặt trời, với mong muốn phục vụ khách hàng tốt nhất.",
     "about.p2": "Với đội ngũ kỹ sư, chuyên viên trong ngành năng lượng mặt trời, Đức Tiến luôn đưa ra những giải pháp năng lượng, tiết kiệm điện tối ưu nhất cho Quý khách hàng. Đến với chúng tôi, khách hàng sẽ được trải nghiệm những dịch vụ tốt nhất, hoàn hảo nhất với giá cạnh tranh và hỗ trợ 24/7.",
     "about.badge": "Tận tâm • Uy tín • Chất lượng",
     "about.li1": "Điện mặt trời áp mái dân dụng, nhà xưởng, xà lan, farm & mini farm",
@@ -173,7 +173,7 @@ const I18N = {
     "nav.services": "Services",
     "nav.contact": "Contact",
 
-    "hero.eyebrow": "DUC TIEN INDUSTRIAL TECHNICAL CO., LTD",
+    "hero.eyebrow": "DUC TIEN INDUSTRIAL CO., LTD",
     "hero.title": "Reliable solar energy & electrical equipment solutions",
     "hero.sub": "EPC services for solar power systems - from residential rooftop, industrial rooftop to solar farms and barges - together with switchboard and mechanical components manufacturing.",
     "hero.cta1": "Explore our fields",
