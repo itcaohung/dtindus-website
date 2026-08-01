@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9">
+  <link rel="stylesheet" href="css/style.css?v=10">
 </head>
 <body>
 
@@ -342,11 +342,15 @@
         <div class="contact-grid">
           <div class="contact-info reveal">
             <h3 data-i18n="contact.infoTitle">Thông tin liên hệ</h3>
+            <h4 class="contact-group" data-i18n="contact.groupAddress">Địa chỉ</h4>
             <ul class="contact-list">
-              <li><span data-icon="person"></span><div><strong data-i18n="contact.personLabel">Người liên hệ</strong><span data-contact="person"></span></div></li>
               <li><span data-icon="pin"></span><div><strong data-i18n="contact.addrLabel">Trụ sở chính</strong><span data-contact="address"></span></div></li>
               <li><span data-icon="factory"></span><div><strong data-i18n="contact.factoryLabel">Xưởng sản xuất</strong><span data-contact="factory"></span></div></li>
               <li><span data-icon="building"></span><div><strong data-i18n="contact.branchLabel">Chi nhánh</strong><span data-contact="branch"></span></div></li>
+            </ul>
+            <h4 class="contact-group" data-i18n="contact.groupDirect">Liên hệ</h4>
+            <ul class="contact-list contact-list--grid">
+              <li><span data-icon="person"></span><div><strong data-i18n="contact.personLabel">Người liên hệ</strong><span data-contact="person"></span></div></li>
               <li><span data-icon="phone"></span><div><strong data-i18n="contact.phoneLabel">Điện thoại</strong><span data-contact="phone-text"></span></div></li>
               <li><span data-icon="mail"></span><div><strong data-i18n="contact.emailLabel">Email</strong><span data-contact="email-text"></span></div></li>
               <li><span data-icon="globe"></span><div><strong data-i18n="contact.websiteLabel">Website</strong><a href="#" data-contact="website" class="contact-link"><span data-contact="website-text"></span></a></div></li>
@@ -430,6 +434,6 @@
     <a href="tel:" data-contact="phone" class="float-btn float-phone" aria-label="Gọi điện"><span data-icon="phone"></span></a>
   </div>
 
-  <script src="js/main.js?v=6"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

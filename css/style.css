@@ -525,17 +525,32 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 .contact { background: var(--white); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; }
 .contact-info h3 { font-size: 20px; margin-bottom: 22px; color: var(--dark); }
-.contact-list li { display: flex; gap: 16px; margin-bottom: 20px; }
+.contact-group {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--blue);
+  margin-bottom: 14px;
+}
+.contact-list { margin-bottom: 28px; }
+.contact-list:last-child { margin-bottom: 0; }
+.contact-list li { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
 .contact-list li > span:first-child {
   flex: none;
-  width: 44px; height: 44px;
-  border-radius: 12px;
+  width: 38px; height: 38px;
+  border-radius: 10px;
   background: rgba(189, 45, 59, 0.08);
   color: var(--red);
   display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
 }
-.contact-list strong { display: block; font-family: var(--font-head); font-size: 14px; margin-bottom: 2px; }
-.contact-list span { color: var(--gray); font-size: 14.5px; }
+.contact-list strong { font-family: var(--font-head); font-size: 13.5px; margin-right: 6px; }
+.contact-list div { display: inline; }
+.contact-list span { color: var(--gray); font-size: 14px; }
+.contact-list--grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 18px; }
+.contact-list--grid li { margin-bottom: 0; }
 .contact-link { display: inline !important; padding: 0 !important; color: var(--blue) !important; font-weight: 600; }
 .contact-link:hover { text-decoration: underline; }
 
