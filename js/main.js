@@ -168,7 +168,7 @@ const I18N = {
 
     "footer.desc": "Công ty TNHH Công nghiệp Đức Tiến - dịch vụ thi công lắp đặt điện năng lượng mặt trời, sản xuất tủ bảng điện và vật tư cơ khí.",
     "footer.slogan": "Tận tâm - Uy tín - Chất lượng",
-    "footer.copyright": "Công ty TNHH Công nghiệp Đức Tiến. Bảo lưu mọi quyền."
+    "footer.copyright": "Công ty TNHH Công nghiệp Đức Tiến giữ bản quyền nội dung trên website này."
   },
 
   en: {
@@ -302,7 +302,7 @@ const I18N = {
 
     "footer.desc": "Duc Tien Industrial Co., Ltd - solar power installation services, switchboard and mechanical components manufacturing.",
     "footer.slogan": "Devotion - Reputation - Quality",
-    "footer.copyright": "Duc Tien Industrial Co., Ltd. All rights reserved."
+    "footer.copyright": "Duc Tien Industrial Co., Ltd owns the copyright to the content on this website."
   }
 };
 
