@@ -499,12 +499,35 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 26px;
 }
-.machines-extra {
-  margin-top: 32px;
-  text-align: center;
-  font-size: 14.5px;
-  color: var(--gray);
+.machines-more {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
+.machines-more-label {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--blue);
+}
+.machines-more-tags { display: flex; gap: 10px; flex-wrap: wrap; }
+.machines-chip {
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--blue);
+  background: var(--white);
+  border: 1px solid rgba(25, 64, 136, 0.25);
+  border-radius: 999px;
+  padding: 8px 16px;
+  transition: all .2s;
+}
+.machines-chip:hover { background: var(--blue); color: var(--white); }
 
 /* ============ PARTNERS ============ */
 .partners { background: var(--light); }.partners-grid {
