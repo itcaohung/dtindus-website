@@ -28,7 +28,7 @@ const PROJECTS = [
   { img: "proj-trungthanh.jpg", nameKey: "projects.p5.name",   loc: "Cần Đước - Long An",         cap: "1.2 MWp",   year: "2020", eq: "Leapton 450Wp • SolarEdge 82.8kW" },
   { img: "proj-s4.jpg",        nameKey: "projects.p6.name",    loc: "Bến Cát - Bình Dương",       cap: "400 kWp",   year: "2020", eq: "Leapton 450Wp • SolarEdge 82.8kW" },
   { img: "proj-nhadep.jpg",    nameKey: "projects.p7.name",    loc: "Bến Cát - Bình Dương",       cap: "100 kWp",   year: "2020", eq: "Leapton 450Wp • SolarEdge 82.8kW" },
-  { img: "proj-baria.jpg",     nameKey: "projects.p8.name",    loc: "Bà Rịa - Vũng Tàu",          cap: "999 kWp",   year: "2020", eq: "Trina 450Wp • KACO 82kW" },
+  { img: "proj-baria-v2.jpg",   nameKey: "projects.p8.name",    loc: "Bà Rịa - Vũng Tàu",          cap: "999 kWp",   year: "2020", eq: "Trina 450Wp • KACO 82kW" },
   { img: "proj-cpvn.jpg",      nameKey: "projects.p9.name",    loc: "KCN Trung An - Tiền Giang",  cap: "999 kWp",   year: "2025", eq: "Longi 580Wp • HUAWEI 100kW" },
   { img: "proj-tempearl.jpg",  nameKey: "projects.p10.name",   loc: "KCX Quận 7 - TP. HCM",       cap: "300 kWp",   year: "2025", eq: "Longi 580Wp • SUNGROW 150kW" }
 ];
