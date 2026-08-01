@@ -125,6 +125,10 @@ const I18N = {
     "equip.title": "Vật tư - Thiết bị",
     "equip.sub": "Trang thiết bị chuyên dụng đảm bảo cung cấp dịch vụ chuyên nghiệp và xử lý mọi tình huống",
 
+    "machines.title": "Năng lực nhà xưởng",
+    "machines.sub": "Hệ thống máy móc thiết bị hiện đại phục vụ sản xuất tại nhà xưởng Đức Tiến",
+    "machines.extra": "Ngoài ra còn có 2 dàn cẩu trục nhà xưởng (5 tấn & 3 tấn), máy hàn laser 1.2kW cùng các loại máy móc thiết bị phụ trợ khác.",
+
     "values.title": "Tầm nhìn - Sứ mệnh",
     "values.sub": "Định hướng phát triển của Đức Tiến",
     "values.v1.name": "Tầm nhìn",
@@ -256,6 +260,10 @@ const I18N = {
     "equip.title": "Materials - Equipment",
     "equip.sub": "Dedicated equipment to ensure professional services and handle any unexpected situations",
 
+    "machines.title": "Factory Capability",
+    "machines.sub": "Modern machinery and equipment serving production at Duc Tien factory",
+    "machines.extra": "We also have 2 overhead cranes (5 tons & 3 tons), a 1.2kW laser welding machine and other supporting equipment.",
+
     "values.title": "Vision - Mission",
     "values.sub": "Development orientation of Duc Tien",
     "values.v1.name": "Vision",
@@ -306,6 +314,19 @@ const EQUIPMENT = {
 };
 
 /* ============================================================
+   MÁY MÓC THIẾT BỊ NHÀ XƯỞNG
+   ============================================================ */
+const MACHINES = [
+  { img: "may-cat-laser-6kw.jpg",    name: { vi: "Máy cắt laser fiber 6kW",  en: "6kW Fiber Laser Cutting Machine" }, spec: { vi: "Công suất 6kW • Bàn máy 6x3 mét",            en: "6kW power • 6x3 m worktable" } },
+  { img: "may-cat-laser-3kw.jpg",    name: { vi: "Máy cắt laser fiber 3kW",  en: "3kW Fiber Laser Cutting Machine" }, spec: { vi: "Công suất 3kW • Bàn máy 4x2 mét (02 máy)",   en: "3kW power • 4x2 m worktable (2 units)" } },
+  { img: "may-laser-1-5kw.jpg",      name: { vi: "Máy cắt laser 1.5kW",     en: "1.5kW Laser Cutting Machine" },       spec: { vi: "Công suất 1.5kW",                           en: "1.5kW power" } },
+  { img: "may-chan-amada-80-tan.jpg", name: { vi: "Máy chấn Amada 80 tấn",  en: "80-ton Amada Press Brake" },         spec: { vi: "Máy chấn CNC/NC 80T của Amada",            en: "Amada CNC/NC 80T press brake" } },
+  { img: "may-chan-30-tan.jpg",      name: { vi: "Máy chấn 30 tấn",         en: "30-ton Press Brake" },                spec: { vi: "Công suất 30 tấn",                          en: "30 tons capacity" } },
+  { img: "may-dap-60-tan.jpg",       name: { vi: "Máy dập thủy lực 60 tấn", en: "60-ton Hydraulic Press" },           spec: { vi: "Lực dập 60 tấn",                            en: "60 tons pressing force" } },
+  { img: "may-dap-35-tan.jpg",       name: { vi: "Máy dập thủy lực 35 tấn", en: "35-ton Hydraulic Press" },           spec: { vi: "Lực dập 35 tấn",                            en: "35 tons pressing force" } }
+];
+
+/* ============================================================
    KHỞI TẠO
    ============================================================ */
 let lang = localStorage.getItem("dt-lang") || "vi";
@@ -319,6 +340,7 @@ function applyLang() {
   });
   document.getElementById("langToggle").classList.toggle("show-vi", lang === "en");
   renderEquipment();
+  renderMachines();
   renderProjects();
 }
 
@@ -338,6 +360,26 @@ function renderEquipment() {
     span.textContent = item;
     box.appendChild(span);
   });
+}
+
+/* ---------- Máy móc thiết bị nhà xưởng ---------- */
+function renderMachines() {
+  const grid = document.getElementById("machinesGrid");
+  grid.innerHTML = "";
+  MACHINES.forEach((m) => {
+    const card = document.createElement("article");
+    card.className = "project-card reveal";
+    card.innerHTML = `
+      <div class="project-media">
+        <img src="assets/img/machines/${m.img}" alt="${m.name[lang]}" loading="lazy">
+      </div>
+      <div class="project-body">
+        <h3>${m.name[lang]}</h3>
+        <p class="project-eq">${m.spec[lang]}</p>
+      </div>`;
+    grid.appendChild(card);
+  });
+  observeReveal();
 }
 
 /* ---------- Dự án tiêu biểu ---------- */
