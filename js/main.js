@@ -127,11 +127,6 @@ const I18N = {
 
     "machines.title": "Năng lực nhà xưởng",
     "machines.sub": "Hệ thống máy móc thiết bị hiện đại phục vụ sản xuất tại nhà xưởng Đức Tiến",
-    "machines.more": "Cùng với",
-    "machines.more1": "Cẩu trục nhà xưởng 5 tấn",
-    "machines.more2": "Cẩu trục nhà xưởng 3 tấn",
-    "machines.more3": "Máy hàn laser 1.2kW",
-    "machines.more4": "Máy móc thiết bị phụ trợ khác",
 
     "values.title": "Tầm nhìn - Sứ mệnh",
     "values.sub": "Định hướng phát triển của Đức Tiến",
@@ -266,11 +261,6 @@ const I18N = {
 
     "machines.title": "Factory Capability",
     "machines.sub": "Modern machinery and equipment serving production at Duc Tien factory",
-    "machines.more": "Also available",
-    "machines.more1": "5-ton overhead crane",
-    "machines.more2": "3-ton overhead crane",
-    "machines.more3": "1.2kW laser welding machine",
-    "machines.more4": "Other supporting machinery",
 
     "values.title": "Vision - Mission",
     "values.sub": "Development orientation of Duc Tien",
