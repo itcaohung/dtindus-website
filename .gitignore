@@ -1,0 +1,8 @@
+# Tài liệu nội bộ (PDF) - không đưa lên public
+Docs/
+
+# File đóng gói deploy
+deploy-dtindus.zip
+
+# macOS
+.DS_Store
