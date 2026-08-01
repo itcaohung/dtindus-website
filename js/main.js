@@ -136,6 +136,9 @@ const I18N = {
     "values.v4.name": "Triết lý kinh doanh",
     "values.v4.desc": "Khách hàng là trọng tâm, là định hướng phục vụ của doanh nghiệp. Đặt chữ tín lên hàng đầu - Tận tâm, Uy tín, Chất lượng.",
 
+    "partners.title": "Đối tác",
+    "partners.sub": "Các đối tác đã đồng hành và tin tưởng hợp tác cùng Đức Tiến",
+
     "contact.title": "Liên hệ",
     "contact.sub": "Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ, tư vấn cho bạn 24/7",
     "contact.infoTitle": "Thông tin liên hệ",
@@ -263,6 +266,9 @@ const I18N = {
     "values.v3.desc": "Recruiting and training high-quality human resources, working professionally, devotedly and responsibly with customers.",
     "values.v4.name": "Business Philosophy",
     "values.v4.desc": "Customers are the center and orientation of our service. Reputation comes first - Devotion, Reputation, Quality.",
+
+    "partners.title": "Partners",
+    "partners.sub": "Partners who have accompanied and trusted Duc Tien",
 
     "contact.title": "Contact",
     "contact.sub": "Our team is always ready to support and consult you 24/7",
