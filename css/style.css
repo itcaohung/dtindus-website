@@ -70,7 +70,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 24px; }
 .header.scrolled { box-shadow: 0 6px 24px rgba(38, 45, 64, 0.1); }
-.brand-logo { height: 46px; width: auto; }
+.brand-logo { height: 56px; width: auto; }
 .nav { display: flex; align-items: center; gap: 6px; }
 .nav-link {
   font-family: var(--font-head);
