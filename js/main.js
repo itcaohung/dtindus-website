@@ -118,8 +118,8 @@ const I18N = {
     "services.s3.li1": "Vệ sinh tấm PV, kiểm tra hệ thống định kỳ",
     "services.s3.li2": "Hỗ trợ xử lý sự cố nhanh chóng, dịch vụ 24/7",
 
-    "custom.title": "Cần tư vấn giải pháp năng lượng mặt trời?",
-    "custom.desc": "Liên hệ ngay hotline để được đội ngũ kỹ sư của Đức Tiến tư vấn miễn phí, khảo sát hiện trạng và báo giá nhanh nhất.",
+    "custom.title": "Cung cấp giải pháp năng lượng toàn diện",
+    "custom.desc": "DTI (DUC TIEN INDUSTRIAL) cung cấp cho khách hàng giải pháp năng lượng mặt trời toàn diện, từ hạng mục khảo sát thiết kế, sản xuất cung ứng vật tư thiết bị, cho tới việc thi công lắp đặt, thử nghiệm vận hành và bàn giao cho chủ đầu tư.",
     "custom.call": "Gọi hotline",
 
     "equip.title": "Vật tư - Thiết bị",
@@ -254,8 +254,8 @@ const I18N = {
     "services.s3.li1": "PV panel cleaning, periodic system inspection",
     "services.s3.li2": "Fast troubleshooting support, 24/7 service",
 
-    "custom.title": "Need solar energy consulting?",
-    "custom.desc": "Contact our hotline now for free consultation from Duc Tien engineers, site survey and fastest quotation.",
+    "custom.title": "Comprehensive energy solutions",
+    "custom.desc": "DTI (DUC TIEN INDUSTRIAL) provides customers with comprehensive solar energy solutions - from site survey and design, manufacturing and supplying equipment and materials, to construction and installation, testing, commissioning and handover to project owners.",
     "custom.call": "Call hotline",
 
     "equip.title": "Materials - Equipment",
