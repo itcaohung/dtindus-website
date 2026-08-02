@@ -68,8 +68,8 @@ const I18N = {
     "stats.serviceLabel": "Dịch vụ hỗ trợ khách hàng",
 
     "about.title": "Giới thiệu công ty",
-    "about.p1": "Công ty TNHH Công nghiệp Đức Tiến (DUC TIEN INDUSTRIAL CO., LTD) hoạt động trong lĩnh vực dịch vụ thi công lắp đặt hệ thống điện năng lượng mặt trời, với mong muốn phục vụ khách hàng tốt nhất.",
-    "about.p2": "Với đội ngũ kỹ sư, chuyên viên trong ngành năng lượng mặt trời, Đức Tiến luôn đưa ra những giải pháp năng lượng, tiết kiệm điện tối ưu nhất cho Quý khách hàng. Đến với chúng tôi, khách hàng sẽ được trải nghiệm những dịch vụ tốt nhất, hoàn hảo nhất với giá cạnh tranh và hỗ trợ 24/7.",
+    "about.p1": "Công ty TNHH Công nghiệp Đức Tiến (DTI) được thành lập năm 2017 hoạt động trong lĩnh vực năng lượng tái tạo. Với kinh nghiệm nhiều năm trong lĩnh vực điện năng lượng mặt trời chúng tôi cung cấp giải pháp năng lượng mặt trời toàn diện cho khách hàng.",
+    "about.p2": "Với đội ngũ kỹ sư, chuyên viên trong ngành năng lượng mặt trời, DTI luôn đưa ra những giải pháp năng lượng, tiết kiệm điện tối ưu nhất cho Quý khách hàng. Đến với chúng tôi, khách hàng sẽ được trải nghiệm những dịch vụ tốt nhất, hoàn hảo nhất với giá cạnh tranh và hỗ trợ 24/7.",
     "about.badge": "Tận tâm • Uy tín • Chất lượng",
     "about.li1": "Điện mặt trời áp mái dân dụng, nhà xưởng, xà lan, farm & mini farm",
     "about.li2": "Sản xuất tủ bảng điện và vật tư cơ khí theo tiêu chuẩn kỹ thuật",
@@ -204,8 +204,8 @@ const I18N = {
     "stats.serviceLabel": "Customer support service",
 
     "about.title": "About us",
-    "about.p1": "Duc Tien Industrial Co., Ltd operates in the field of solar power system installation services, with the desire to serve customers in the best way.",
-    "about.p2": "With a team of engineers and specialists in the solar energy industry, Duc Tien always provides the most optimal energy-saving solutions for customers. We deliver the best, most perfect services at competitive prices with 24/7 support.",
+    "about.p1": "Duc Tien Industrial Co., Ltd (DTI) was established in 2017, operating in the renewable energy sector. With years of experience in the solar power industry, we provide comprehensive solar energy solutions to customers.",
+    "about.p2": "With a team of engineers and specialists in the solar energy industry, DTI always provides the most optimal energy-saving solutions for customers. We deliver the best, most perfect services at competitive prices with 24/7 support.",
     "about.badge": "Devotion • Reputation • Quality",
     "about.li1": "Rooftop solar for residential, industrial, barges, farms & mini farms",
     "about.li2": "Switchboard and mechanical components manufacturing to technical standards",
