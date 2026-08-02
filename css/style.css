@@ -327,25 +327,6 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 .about-content .section-title { display: block; text-align: left; }
 .about-content .section-title::after { margin: 12px 0 0; }
 .about-content p { color: var(--gray); margin-bottom: 16px; }
-.about-points li {
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 12px;
-  font-size: 15px;
-  color: var(--dark);
-}
-.about-points li::before {
-  content: "✓";
-  position: absolute;
-  left: 0; top: 0;
-  width: 20px; height: 20px;
-  border-radius: 50%;
-  background: rgba(189, 45, 59, 0.12);
-  color: var(--red);
-  font-size: 12px;
-  font-weight: 800;
-  display: flex; align-items: center; justify-content: center;
-}
 
 /* ============ PRODUCTS / CARDS ============ */
 .products { background: var(--light); }
