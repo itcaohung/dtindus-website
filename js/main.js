@@ -485,6 +485,21 @@ document.querySelectorAll(".nav-link").forEach((link) =>
   })
 );
 
+/* ---------- Cuộn mượt khi chọn menu, không thêm # vào URL ---------- */
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", (e) => {
+    const targetId = link.getAttribute("href");
+    if (targetId.length <= 1) return;
+    const target = document.querySelector(targetId);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (history.replaceState) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  });
+});
+
 /* ---------- Header shadow + scrollspy khi cuộn ---------- */
 const header = document.getElementById("header");
 const sections = [...document.querySelectorAll("main section[id]")];
