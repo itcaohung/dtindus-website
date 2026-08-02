@@ -71,9 +71,6 @@ const I18N = {
     "about.p1": "Công ty TNHH Công nghiệp Đức Tiến (DTI) được thành lập năm 2017 hoạt động trong lĩnh vực năng lượng tái tạo. Với kinh nghiệm nhiều năm trong lĩnh vực điện năng lượng mặt trời chúng tôi cung cấp giải pháp năng lượng mặt trời toàn diện cho khách hàng.",
     "about.p2": "Với đội ngũ kỹ sư, chuyên viên trong ngành năng lượng mặt trời, DTI luôn đưa ra những giải pháp năng lượng, tiết kiệm điện tối ưu nhất cho Quý khách hàng. Đến với chúng tôi, khách hàng sẽ được trải nghiệm những dịch vụ tốt nhất, hoàn hảo nhất với giá cạnh tranh và hỗ trợ 24/7.",
     "about.badge": "Tận tâm • Uy tín • Chất lượng",
-    "about.li1": "Điện mặt trời áp mái dân dụng, nhà xưởng, xà lan, farm & mini farm",
-    "about.li2": "Sản xuất tủ bảng điện và vật tư cơ khí theo tiêu chuẩn kỹ thuật",
-    "about.li3": "Đội ngũ kỹ sư chuyên nghiệp, trang thiết bị chuyên dụng hiện đại, dịch vụ 24/7",
 
     "fields.title": "Lĩnh vực hoạt động",
     "fields.sub": "Các lĩnh vực hoạt động chính của Đức Tiến",
@@ -207,9 +204,6 @@ const I18N = {
     "about.p1": "Duc Tien Industrial Co., Ltd (DTI) was established in 2017, operating in the renewable energy sector. With years of experience in the solar power industry, we provide comprehensive solar energy solutions to customers.",
     "about.p2": "With a team of engineers and specialists in the solar energy industry, DTI always provides the most optimal energy-saving solutions for customers. We deliver the best, most perfect services at competitive prices with 24/7 support.",
     "about.badge": "Devotion • Reputation • Quality",
-    "about.li1": "Rooftop solar for residential, industrial, barges, farms & mini farms",
-    "about.li2": "Switchboard and mechanical components manufacturing to technical standards",
-    "about.li3": "Professional engineering team, modern specialized equipment, 24/7 service",
 
     "fields.title": "Fields of activity",
     "fields.sub": "Main fields of activity of Duc Tien",
