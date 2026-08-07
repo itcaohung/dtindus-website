@@ -24,7 +24,7 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: var(--font-body);
@@ -32,6 +32,7 @@ body {
   background: var(--white);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
@@ -720,8 +721,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 .footer-bottom .container { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 
 /* ============ FLOATING BUTTONS ============ */
-.float-btns { position: fixed; right: 22px; bottom: 22px; z-index: 90; display: flex; flex-direction: column; gap: 12px; }
-.float-btn {
+.float-btns { position: fixed; right: 22px; bottom: 22px; z-index: 90; display: flex; flex-direction: column; gap: 12px; }.float-btn {
   width: 52px; height: 52px;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
@@ -812,6 +812,11 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.25; font-weight: 
 .section { padding: 52px 0; }
   .banner { padding: 30px 26px; }
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+  .float-btns { right: 14px; bottom: 16px; gap: 10px; padding-bottom: env(safe-area-inset-bottom); }
+  .float-btn { width: 46px; height: 46px; }
+  .cards-grid, .projects-grid, .services .cards-grid { grid-template-columns: 1fr; }
+  .prod-grid { grid-template-columns: 1fr 1fr; }
+  .topbar-contact a { white-space: nowrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {
